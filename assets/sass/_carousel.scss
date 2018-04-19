@@ -1,0 +1,27 @@
+.carousel {
+  font-size: 15px;
+  .reel {
+    h3 {
+      line-height: 1.5em;
+    }
+    p {
+      font-size: 1.125em;
+      line-height: 1.35em;
+    }
+  }
+  > header > h2 {
+    text-align: center;
+  }
+}
+
+
+  .carousel.about {
+    font-size: 18px;
+    article {
+      @include flex(0 0 22em);
+      a {
+        display: block;
+        margin: auto;
+      }
+    }
+  }
